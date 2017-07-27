@@ -7,4 +7,4 @@ To run this project
 - start Server.java
 
 #Database 
-- is provided in 
+- is provided in /Server_backend/database/
