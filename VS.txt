@@ -1,0 +1,17 @@
+•	Client to Server
+o	EpubServer [(sha256(uid),sha256(R1))] = k where R1 {Randomly generated string}
+
+•	Server to Client
+o	[sha256(R2)] where R2 {Randomly generated string}
+
+•	Server
+o	DpvtServer [k] = (sha256(uid),sha256(R1)) say A
+o	A.split(“,”) = sha256(uid) and sha256(R1)
+
+•	Now both client and server have three piece of information
+o	Client sha256(uid) – send RSA encrypted // used to save a session key till it ends
+o	sha256(R1) – send RSA encrypted
+o	sha256(R2) – send in plaintext
+
+•	Generation of shared key
+o	Shared key = sha256(s) where s[]={R1,R2}

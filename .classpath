@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Client_frontend/src"/>
+	<classpathentry kind="src" path="Server_backend/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="used_jars/beautyeye_lnf.jar"/>
+	<classpathentry kind="lib" path="used_jars/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="used_jars/commons-compress-1.0.jar"/>
+	<classpathentry kind="lib" path="used_jars/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="used_jars/mysql-connector-java-5.1.30-bin.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
